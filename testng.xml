@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="1" parallel="tests">
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="gglsearch.testcases.HomePageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MSEdge">
+		<parameter name="browser" value="msedge" />
+		<classes>
+			<class name="gglsearch.testcases.HomePageTest">
+			</class>
+		</classes>
+	</test>
+</suite>
