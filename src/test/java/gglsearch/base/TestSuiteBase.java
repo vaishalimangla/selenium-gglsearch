@@ -42,7 +42,7 @@ public class TestSuiteBase {
 				prop.load(ip);
 			} catch (IOException e) {
 				e.printStackTrace();
-			}
+			} 
 		}
 	}
 
